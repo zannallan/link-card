@@ -12,22 +12,15 @@ body {
 }
 
 .link-card {
-  text-decoration: none;
-  font-family: Georgia, serif;
-  font-weight: normal;
-  color: #785439;
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  display: block;
   background-color: #dcd4cd;
   border-radius: 3px;
   border: 3px solid #9a816d;
   padding: 1rem;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #785439;
 }
 
 h1 {
@@ -72,7 +65,7 @@ dd::after {
   white-space: pre;
 }
 
-.link-button {
+.btn {
   display: inline-block;
   font-family: "Dosis", sans-serif;
   font-weight: bold;
@@ -83,5 +76,13 @@ dd::after {
   border-radius: 8px;
   padding: .5rem .75rem .75rem;
   text-align: center;
+  margin: 0;
+}
 
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
