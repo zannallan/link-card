@@ -27,7 +27,7 @@ body {
 .link-card h2 {
   margin: 0 0 1rem;
   color: #512200;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: left;
@@ -68,7 +68,7 @@ dd::after {
 
 .btn {
   display: inline-block;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
   color: #f0eee8;
   font-size: 1.125rem;
