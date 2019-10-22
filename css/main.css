@@ -6,3 +6,82 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #f0eee8;
+}
+
+.link-card {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #785439;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  border: 3px solid #9a816d;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  color: #512200;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: #512200;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+}
+
+hr {
+  border: 1px solid #9a816d;
+  border-radius: 3px;
+  margin: 0 0 1rem;
+}
+
+dl {
+  display: inline-block;
+  color: #512200;
+  font-size: .875rem;
+  margin: 0 0 1rem;
+}
+
+dt {
+  float: left;
+}
+
+dd {
+  font-style: italic;
+  float: left;
+}
+
+dd::after {
+  content: " ";
+  white-space: pre;
+}
+
+.link-button {
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  color: #f0eee8;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: #785439;
+  border-radius: 8px;
+  padding: .5rem .75rem .75rem;
+  text-align: center;
+
+}
