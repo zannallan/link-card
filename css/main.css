@@ -21,34 +21,35 @@ body {
   font-family: Georgia, serif;
   font-weight: normal;
   color: #785439;
+  text-align: center;
 }
 
-h1 {
+.link-card h2 {
   margin: 0 0 1rem;
   color: #512200;
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: left;
 }
 
 p {
-  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  margin: 0;
   color: #512200;
   font-family: Georgia, serif;
   font-size: 1rem;
-}
-
-hr {
-  border: 1px solid #9a816d;
-  border-radius: 3px;
-  margin: 0 0 1rem;
+  text-align: left;
+  border-bottom: 2px solid #9a816d;
 }
 
 dl {
   display: inline-block;
   color: #512200;
   font-size: .875rem;
-  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid #9a816d;
+  text-align: left;
 }
 
 dt {
