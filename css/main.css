@@ -54,17 +54,14 @@ dl {
 }
 
 dt {
-  float: left;
+  display: inline-block;
+  width: 45%;
 }
 
 dd {
   font-style: italic;
-  float: left;
-}
-
-dd::after {
-  content: " ";
-  white-space: pre;
+  display: inline-block;
+  width: 45%;
 }
 
 .btn {
